@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>爱游戏 · 生活里的游戏时刻</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f9fafc;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      color: #1e1f2b;
+      line-height: 1.75;
+      padding: 2.5rem 1.25rem;
+    }
+
+    .page-wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 32px;
+      padding: 2.8rem 2.2rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.03);
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.4rem;
+      color: #1a1c2e;
+    }
+
+    .subhead {
+      font-size: 1rem;
+      color: #5d6072;
+      margin-bottom: 2.2rem;
+      border-left: 3px solid #d0d6e0;
+      padding-left: 1rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 510;
+      margin-top: 2.8rem;
+      margin-bottom: 0.9rem;
+      color: #1e1f2b;
+      border-bottom: 1px solid #eef0f5;
+      padding-bottom: 0.4rem;
+    }
+
+    h2:first-of-type {
+      margin-top: 0.2rem;
+    }
+
+    p {
+      margin-bottom: 1.1rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin: 1.5rem 0 0.6rem 0;
+    }
+
+    .card {
+      background: #f5f7fb;
+      border-radius: 20px;
+      padding: 1.3rem 1.1rem;
+      transition: background 0.2s;
+    }
+
+    .card .card-title {
+      font-weight: 540;
+      font-size: 1.05rem;
+      margin-bottom: 0.3rem;
+      color: #1e1f2b;
+    }
+
+    .card p {
+      font-size: 0.92rem;
+      color: #3f4257;
+      margin-bottom: 0;
+    }
+
+    .people-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem 1rem;
+      margin: 1.2rem 0 0.8rem 0;
+    }
+
+    .people-tag {
+      background: #eef1f7;
+      border-radius: 40px;
+      padding: 0.3rem 1rem;
+      font-size: 0.9rem;
+      color: #2c2f42;
+    }
+
+    a {
+      color: #1e3a7a;
+      text-decoration: none;
+      border-bottom: 1px solid #b6c6e0;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    a:hover {
+      border-bottom-color: #1e3a7a;
+      color: #0f2652;
+    }
+
+    .faq-item {
+      margin: 1rem 0 0.2rem 0;
+    }
+
+    .faq-q {
+      font-weight: 530;
+      margin-bottom: 0.15rem;
+    }
+
+    .faq-a {
+      color: #3d4055;
+      font-size: 0.95rem;
+      padding-left: 0.3rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e7eaf1;
+      margin: 2.2rem 0 1.2rem 0;
+    }
+
+    .footer-note {
+      font-size: 0.85rem;
+      color: #6d7185;
+      text-align: center;
+      margin-top: 1.8rem;
+      border-top: 1px solid #edf0f6;
+      padding-top: 1.5rem;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+
+      .page-wrap {
+        padding: 1.8rem 1.2rem;
+        border-radius: 24px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <!-- hero 区域 -->
+    <h1>游戏不只是一种消遣</h1>
+    <div class="subhead">它也是闲聊、解压、灵感和陪伴的角落</div>
+
+    <!-- 主视觉 / 切入角度 -->
+    <p>
+      有时候，一个游戏打动你的不是画面，而是那个刚好契合心绪的瞬间。下班后随手一局，或是周末沉浸在某个故事里——这些时刻没有标签，也不必刻意。<a href="https://homezh-aiyouxi.com.cn">爱游戏</a>这个说法，或许正好概括了那种自然而然的喜爱，没有负担，也不需要理由。我们更愿意把它看作一种生活里的柔软选项。
+    </p>
+
+    <!-- 用途卡片（信息卡片式） -->
+    <h2>游戏能做什么</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-title">换换心情</div>
+        <p>不想说话、不想思考的时候，一局节奏合适的游戏就是最好的调节。不较劲，只放松。</p>
+      </div>
+      <div class="card">
+        <div class="card-title">两个人一起</div>
+        <p>联机或同屏，合作或小竞争——很多关系是在手柄和键盘之间变得更熟悉的。</p>
+      </div>
+      <div class="card">
+        <div class="card-title">探索与创造</div>
+        <p>沙盒、模拟、解谜……在规则里找到自己的玩法，甚至只是搭个小房子，也是一种成就感。</p>
+      </div>
+      <div class="card">
+        <div class="card-title">安静的陪伴</div>
+        <p>有些游戏像一本可以反复翻的书，熟悉的世界、音乐和节奏，让人安心。</p>
+      </div>
+    </div>
+
+    <!-- 适合人群（标签式） -->
+    <h2>适合什么样的人</h2>
+    <p>并没有严格的画像。如果你曾经在某个游戏里停留过十分钟以上，就已经是它的一部分了。不过这几类朋友或许更容易找到共鸣：</p>
+    <div class="people-list">
+      <span class="people-tag">偶尔玩一局的上班族</span>
+      <span class="people-tag">喜欢故事和氛围的读者型</span>
+      <span class="people-tag">想和孩子一起玩的家长</span>
+      <span class="people-tag">独立游戏爱好者</span>
+      <span class="people-tag">只想随便按按的新手</span>
+      <span class="people-tag">怀旧老玩家</span>
+    </div>
+
+    <!-- 自然链接段落（已嵌入上面的句子，这里再提供一个自然句，确保至少一个 a 标签且文本为“爱游戏”，但注意不要重复使用完全相同的句式） -->
+    <p>
+      如果问起喜欢什么游戏，很多人会直接说「<a href="https://homezh-aiyouxi.com.cn">爱游戏</a>」三个字——不是特指哪一款，而是一种状态。愿意花时间去感受一个虚拟世界，或者仅仅是用十分钟换一种心境，这本身就是一种日常的温柔。
+    </p>
+
+    <!-- FAQ 摘要（简短克制） -->
+    <h2>简短问答</h2>
+    <div class="faq-item">
+      <div class="faq-q">Q：一定要玩很厉害才算爱游戏吗？</div>
+      <div class="faq-a">完全不需要。喜欢散步、喜欢某一个关卡的音乐、甚至只是喜欢看别人玩，都算。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：游戏时间太长怎么办？</div>
+      <div class="faq-a">留意身体信号就好。偶尔沉迷也是正常的，记得站起来喝杯水。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q：找不到想玩的游戏？</div>
+      <div class="faq-a">可以从老游戏或者小体量作品开始，有时候惊喜就在意想不到的地方。</div>
+    </div>
+
+    <hr>
+
+    <p style="font-size: 0.9rem; color: #4f536a;">
+      游戏是生活的配角，但也是值得认真对待的伙伴。不夸张，不造作，有空玩一局就好。
+    </p>
+
+    <div class="footer-note">
+      <a href="https://homezh-aiyouxi.com.cn" style="border-bottom: none;">爱游戏</a> · 日常即游戏
+    </div>
+  </div>
+</body>
+</html>
